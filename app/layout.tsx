@@ -9,9 +9,9 @@ const cinzel = Cinzel({
 });
 
 export const metadata: Metadata = {
-  title: "MCU Doomsday Clock | Avengers: Doomsday Countdown",
+  title: "$5 Cup Day Countdown",
   description:
-    "Countdown to Avengers: Doomsday releasing December 18, 2026. Experience the cinematic countdown with immersive visuals and ambient effects.",
+    "$5 Cup Day Countdown at Kiwi Loco",
   keywords: [
     "Avengers Doomsday",
     "MCU",
