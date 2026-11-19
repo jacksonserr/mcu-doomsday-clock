@@ -67,11 +67,10 @@ export default function WillReturn() {
         setStep(1);
       } else if (elapsed < 5000) {
         setStep(2);
-      } else if (elapsed < 9000) {
-        setStep(3);
       } else {
-        cycleStartRef.current = timestamp;
-        setStep(0);
+        setStep(3);
+        return;
+      
       }
 
       animationId = requestAnimationFrame(animate);
@@ -94,7 +93,7 @@ export default function WillReturn() {
           {" "}Will Return In{" "}
         </span>
         <span className={`inline transition-opacity duration-1000 ${step >= 3 ? "opacity-100" : "opacity-0"}`}>
-          Avengers: Doomsday
+          December
         </span>
       </p>
     </div>
