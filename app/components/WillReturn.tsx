@@ -31,7 +31,7 @@ export default function WillReturn() {
   const cycleStartRef = useRef<number>(0);
   const startedRef = useRef(false);
 
-  const name = searchParams.get("name") || "KMaar";
+  const name = searchParams.get("name") || "$5 Cup Day";
 
   useEffect(() => {
     const unsubscribe = subscribeWillReturn(setEnabled);
